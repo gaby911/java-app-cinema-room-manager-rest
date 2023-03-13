@@ -6,7 +6,9 @@ public class Main {
         System.out.println("print(\"" + strArg + "\")");
     }
 
-    // write your method here
+    public static void print(String strArg, int number) {
+        System.out.println("print(\"" + strArg + "\", " + number + ")");
+    }
 
     /* Do not change code below */
     public static void main(String[] args) {
